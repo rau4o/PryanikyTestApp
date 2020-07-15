@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EC0879E8748F09F1FB9EED8 /* Pods_PryanikyTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5122A1DC1A6FA8E1B4141596 /* Pods_PryanikyTestApp.framework */; };
 		AE2C1A9824BEE89300D45B0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1A9724BEE89300D45B0C /* AppDelegate.swift */; };
 		AE2C1A9A24BEE89300D45B0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1A9924BEE89300D45B0C /* SceneDelegate.swift */; };
-		AE2C1A9C24BEE89300D45B0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1A9B24BEE89300D45B0C /* ViewController.swift */; };
 		AE2C1A9F24BEE89300D45B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2C1A9D24BEE89300D45B0C /* Main.storyboard */; };
 		AE2C1AA124BEE89400D45B0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2C1AA024BEE89400D45B0C /* Assets.xcassets */; };
 		AE2C1AA424BEE89400D45B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2C1AA224BEE89400D45B0C /* LaunchScreen.storyboard */; };
+		AE2C1AAC24BEE8EC00D45B0C /* TableWithDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1AAB24BEE8EC00D45B0C /* TableWithDataController.swift */; };
+		AE2C1AB324BEEBCE00D45B0C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1AB224BEEBCE00D45B0C /* WebService.swift */; };
+		AE2C1AB524BEED4500D45B0C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1AB424BEED4500D45B0C /* NetworkManager.swift */; };
+		AE2C1AB724BEED6E00D45B0C /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1AB624BEED6E00D45B0C /* DataFetcherService.swift */; };
+		AE2C1ABA24BEEE3E00D45B0C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1AB924BEEE3E00D45B0C /* Welcome.swift */; };
+		AE2C1ABC24BEF23B00D45B0C /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1ABB24BEF23B00D45B0C /* DetailController.swift */; };
+		AE2C1AC124BF0D8F00D45B0C /* DataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2C1AC024BF0D8F00D45B0C /* DataCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BBEA24FDAF38CAEE678640A /* Pods-PryanikyTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTestApp.release.xcconfig"; path = "Target Support Files/Pods-PryanikyTestApp/Pods-PryanikyTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		5122A1DC1A6FA8E1B4141596 /* Pods_PryanikyTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikyTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C1A9424BEE89300D45B0C /* PryanikyTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryanikyTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C1A9724BEE89300D45B0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2C1A9924BEE89300D45B0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE2C1A9B24BEE89300D45B0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE2C1A9E24BEE89300D45B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE2C1AA024BEE89400D45B0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2C1AA324BEE89400D45B0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2C1AA524BEE89400D45B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2C1AAB24BEE8EC00D45B0C /* TableWithDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableWithDataController.swift; sourceTree = "<group>"; };
+		AE2C1AB224BEEBCE00D45B0C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		AE2C1AB424BEED4500D45B0C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AE2C1AB624BEED6E00D45B0C /* DataFetcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		AE2C1AB924BEEE3E00D45B0C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		AE2C1ABB24BEF23B00D45B0C /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		AE2C1AC024BF0D8F00D45B0C /* DataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCell.swift; sourceTree = "<group>"; };
+		B5D404AEEFC8746395F4BA2C /* Pods-PryanikyTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTestApp.debug.xcconfig"; path = "Target Support Files/Pods-PryanikyTestApp/Pods-PryanikyTestApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC0879E8748F09F1FB9EED8 /* Pods_PryanikyTestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7E3908F6EF3769A456DEA82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5D404AEEFC8746395F4BA2C /* Pods-PryanikyTestApp.debug.xcconfig */,
+				1BBEA24FDAF38CAEE678640A /* Pods-PryanikyTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AE2C1A8B24BEE89300D45B0C = {
 			isa = PBXGroup;
 			children = (
 				AE2C1A9624BEE89300D45B0C /* PryanikyTestApp */,
 				AE2C1A9524BEE89300D45B0C /* Products */,
+				A7E3908F6EF3769A456DEA82 /* Pods */,
+				D32A8769DD8025B5A269361D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +84,61 @@
 		AE2C1A9624BEE89300D45B0C /* PryanikyTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				AE2C1A9724BEE89300D45B0C /* AppDelegate.swift */,
+				AE2C1AAB24BEE8EC00D45B0C /* TableWithDataController.swift */,
+				AE2C1ABB24BEF23B00D45B0C /* DetailController.swift */,
+				AE2C1AB824BEEDB900D45B0C /* Model */,
+				AE2C1ABF24BF0D4C00D45B0C /* View */,
+				AE2C1AC624BF1E5E00D45B0C /* Controller */,
+				AE2C1AB124BEEBA700D45B0C /* Service */,
 				AE2C1A9924BEE89300D45B0C /* SceneDelegate.swift */,
-				AE2C1A9B24BEE89300D45B0C /* ViewController.swift */,
+				AE2C1A9724BEE89300D45B0C /* AppDelegate.swift */,
 				AE2C1A9D24BEE89300D45B0C /* Main.storyboard */,
 				AE2C1AA024BEE89400D45B0C /* Assets.xcassets */,
 				AE2C1AA224BEE89400D45B0C /* LaunchScreen.storyboard */,
 				AE2C1AA524BEE89400D45B0C /* Info.plist */,
 			);
 			path = PryanikyTestApp;
+			sourceTree = "<group>";
+		};
+		AE2C1AB124BEEBA700D45B0C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C1AB224BEEBCE00D45B0C /* WebService.swift */,
+				AE2C1AB424BEED4500D45B0C /* NetworkManager.swift */,
+				AE2C1AB624BEED6E00D45B0C /* DataFetcherService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		AE2C1AB824BEEDB900D45B0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C1AB924BEEE3E00D45B0C /* Welcome.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE2C1ABF24BF0D4C00D45B0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE2C1AC024BF0D8F00D45B0C /* DataCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE2C1AC624BF1E5E00D45B0C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D32A8769DD8025B5A269361D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5122A1DC1A6FA8E1B4141596 /* Pods_PryanikyTestApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE2C1AA824BEE89400D45B0C /* Build configuration list for PBXNativeTarget "PryanikyTestApp" */;
 			buildPhases = (
+				56200CBFC1592D4898FEF57A /* [CP] Check Pods Manifest.lock */,
 				AE2C1A9024BEE89300D45B0C /* Sources */,
 				AE2C1A9124BEE89300D45B0C /* Frameworks */,
 				AE2C1A9224BEE89300D45B0C /* Resources */,
+				908522A1F35B3BE381785D56 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +209,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56200CBFC1592D4898FEF57A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikyTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		908522A1F35B3BE381785D56 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTestApp/Pods-PryanikyTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTestApp/Pods-PryanikyTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PryanikyTestApp/Pods-PryanikyTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE2C1A9024BEE89300D45B0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2C1A9C24BEE89300D45B0C /* ViewController.swift in Sources */,
+				AE2C1ABA24BEEE3E00D45B0C /* Welcome.swift in Sources */,
+				AE2C1AB324BEEBCE00D45B0C /* WebService.swift in Sources */,
+				AE2C1AC124BF0D8F00D45B0C /* DataCell.swift in Sources */,
+				AE2C1AB524BEED4500D45B0C /* NetworkManager.swift in Sources */,
+				AE2C1AB724BEED6E00D45B0C /* DataFetcherService.swift in Sources */,
 				AE2C1A9824BEE89300D45B0C /* AppDelegate.swift in Sources */,
+				AE2C1AAC24BEE8EC00D45B0C /* TableWithDataController.swift in Sources */,
+				AE2C1ABC24BEF23B00D45B0C /* DetailController.swift in Sources */,
 				AE2C1A9A24BEE89300D45B0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +406,7 @@
 		};
 		AE2C1AA924BEE89400D45B0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5D404AEEFC8746395F4BA2C /* Pods-PryanikyTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +425,7 @@
 		};
 		AE2C1AAA24BEE89400D45B0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BBEA24FDAF38CAEE678640A /* Pods-PryanikyTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
